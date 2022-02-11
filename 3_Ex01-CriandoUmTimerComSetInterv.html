@@ -5,29 +5,21 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Timer</title>
-      <style>
-            .timer{
-                  align-items: center;
-                  justify-content: center;
-                  display: flex;
-                  flex-direction: column;
-            }
-
-      </style>
+      <link rel="stylesheet" href="./3_Ex01-CriandoUmTimerComSetInterval.css">
       
 </head>
 <body>
       <div class="timer">
       
       <div class="timer-update">
-            <h1>
+        
                   <span class="min">00</span>:<span class="sec">00</span>:<span class="ms">00</span>
-            </h1>
+            
       </div>      
       <div class="buttons">
-            <button type="submit" id="start">start</button>
-            <input type="button" value="pause" id="pause">
-            <input type="button" value="reset" id="reset">
+            <button type="button" class="button" id="start">Start</button>
+            <button type="button" class="button active" id="pause">Pause</button>
+            <button type="button" class="active-reset" id="reset">Stop</button>
       
 
 </div>   
