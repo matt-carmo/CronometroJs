@@ -54,7 +54,7 @@ let cron;
 const resetStringNumbers = () => {
     miliseconds.innerHTML = "00";
     seconds.innerHTML = "00";
-    miliseconds.innerHTML = "00";
+    minute.innerHTML = "00";
 };
 const clear = () => {
     ms = 0;
